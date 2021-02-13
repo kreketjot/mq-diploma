@@ -1,0 +1,60 @@
+.header {
+	background-image: url("../images/banner-bg-tablet.jpg");
+}
+
+.content {
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 43px;
+}
+
+.header .content {
+	padding-bottom: 125px;
+}
+
+.header .logo {
+	width: 157px;
+	height: 40px;
+}
+
+.header .menu {
+	width: 23px;
+	height: 20px;
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-image: url("../images/menu-button.png");
+}
+
+.header .menu nav {
+	position: absolute;
+
+	width: 1px;
+	height: 1px;
+	
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.header .welcome {
+	width: 100%;
+	max-width: 640px;
+
+	margin: 104px auto 0;
+}
+
+.header h1 {
+	line-height: 1.375;
+}
+
+@media (min-width: 706px) {
+	.header h1 {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 705px) {
+	.header h1 {
+		font-size: 5.6vw; /* (40/706)*100 (сохраниение внешнего вида текста) */
+	}
+}

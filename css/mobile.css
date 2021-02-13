@@ -1,0 +1,96 @@
+body {
+	min-width: 240px;
+}
+
+/* во всех @media (max-width: 239px) указываются фиксированные значения, как при ширине в 240px */
+/* при ширине > 239px размеры зависят от viewport width */
+/* расчитывается относительно макета с шириной 360px */
+
+ /* стоит ли объединить все @media (max-width: 239px) или оставить раскиданными по коду для повышения читаемости? */
+
+.header {
+	background-image: url("../images/banner-mobile.jpg");
+}
+
+.content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.header .content {
+	padding-top: 31px;
+	padding-bottom: 60.555vw; /* 218/360 = 0.60555 */
+}
+
+@media (max-width: 239px) {
+	.header .content {
+		padding-bottom: 145px; /* 0.60555*240 = 145 */
+	}
+}
+
+.header .top {
+	height: 70.833vw; /* 255/360 = 0.70833 */
+
+	flex-direction: column-reverse;
+}
+
+@media (max-width: 239px) {
+	.header .top {
+		height: 170px; /* 0.70833*240 = 170 */
+	}
+}
+
+.header .logo {
+	width: 74.722vw; /* 269/360 = 0.74722 */
+	height: 16.667vw; /* 60/360 = 0.16667 */
+}
+
+@media (max-width: 239px) {
+	.header .logo {
+		width: 179px; /* 0.74722*240 = 179 */
+		height: 40px; /* 0.16667*240 = 40 */
+	}
+}
+
+.header .menu {
+	width: 23px;
+	height: 20px;	
+
+	align-self: flex-end;
+	/* как добавить действие? нужно ли обернуть в ссылку? */
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center; /* нужно ли ? */
+	background-image: url("../images/menu-button.png");
+}
+
+.header .menu nav {
+	position: absolute;
+
+	width: 1px;
+	height: 1px;
+	
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.header  .welcome {
+	margin: 12vw auto 0; /* 43/360 = 0.12 */
+}
+
+@media (max-width: 239px) {
+	.header .welcome {
+		margin-top: 29px; /* 0.12*240 = 29 */
+	}
+}
+
+.header h1 {
+	font-size: 7.222vw; /* 26/360 = 0.07222 */
+	line-height: 1.385; /* 36/26 = 1.385 */
+}
+
+@media (max-width: 239px) {
+	.header h1 {
+		font-size: 17px; 
+	}
+}

@@ -1,0 +1,54 @@
+.header {
+	background-image: url("../images/banner-bg.jpg");
+}
+
+.content {
+	max-width: 1200px;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.header .content {
+	padding-top: 28px;
+	padding-bottom: 145px;
+}
+
+.header .logo {
+	width: 180px;
+	height: 40px;
+}
+
+.header .welcome {
+	width: 720px; /* примерно взято. нормально? */
+
+	margin: 127px auto 0;
+}
+
+.header h1 {
+	font-size: 45px;
+	line-height: 75px;
+}
+
+.header .menu .list {
+	display: flex;
+}
+
+.header .menu .list li:not(:first-child) { /* лучше через :not или перезаписать первый элемент? ведь так каждый элемент проверяется на :first-child ... */
+	margin-left: 35px;
+}
+
+.header .menu a {
+	font-family: "OpenSans";
+	font-weight: normal;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.header .menu a:hover {
+	text-decoration: underline;
+}
