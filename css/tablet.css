@@ -1,4 +1,5 @@
-.header {
+/*** GENERAL styles START ***/
+.header-section {
 	background-image: url("../images/banner-bg-tablet.jpg");
 }
 
@@ -8,16 +9,34 @@
 	padding-top: 43px;
 }
 
-.header .content {
+.trends-section, .union, .shop-section, .site-footer {
+	margin-top: 64px;
+}
+
+.aside-bar__section {
+	margin-top: 61px;
+}
+
+.section-title {
+	font-size: 18px;
+}
+
+.section-title_aside {
+	font-size: 14px;
+}
+/*** GENERAL styles END ***/
+
+/*** HEADER section START ***/
+.header-section__content {
 	padding-bottom: 125px;
 }
 
-.header .logo {
+.header-section__logo {
 	width: 157px;
 	height: 40px;
 }
 
-.header .menu {
+.header-section__menu {
 	width: 23px;
 	height: 20px;
 
@@ -27,7 +46,7 @@
 	background-image: url("../images/menu-button.png");
 }
 
-.header .menu nav {
+.header-section__menu-list-container_hidden {
 	position: absolute;
 
 	width: 1px;
@@ -36,25 +55,26 @@
 	clip: rect(1px, 1px, 1px, 1px);
 }
 
-.header .welcome {
+.header-section__title-container {
 	width: 100%;
 	max-width: 640px;
 
 	margin: 104px auto 0;
 }
 
-.header h1 {
+.header-section__title {
 	line-height: 1.375;
 }
 
 @media (min-width: 706px) {
-	.header h1 {
+	.header-section__title {
 		font-size: 40px;
 	}
 }
 
 @media (max-width: 705px) {
-	.header h1 {
+	.header-section__title {
 		font-size: 5.6vw; /* (40/706)*100 (сохраниение внешнего вида текста) */
 	}
 }
+/*** HEADER section END ***/

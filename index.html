@@ -11,43 +11,259 @@
 </head>
 
 <body>
-	<header class="header">
-		<div class="content">
-			<div class="top">
-					<a class="logo" href="#top">
-						<span class="hidden">noemi logo</span>
+
+
+	<header class="header-section">
+		<div class="header-section__content content">
+			<div class="header-section__top">
+				<a class="header-section__logo" href="#0">
+					<span class="_hidden">
+						noemi logo
+					</span>
 				</a>
 
-				<div class="menu">
-					<nav>
-						<ul class="list">
-							<li class="menu-item">
-								<a href="#top">главная</a>
+				<nav class="header-section__menu">
+					<div class="header-section__menu-list-container_hidden">
+						<ul class="header-section__menu-list list_no-style">
+
+							<li class="header-section__menu-item header-section__menu-item_first">
+								<a class="header-section__menu-item-link" href="#0">
+									главная
+								</a>
 							</li>
-							<li class="menu-item">
-								<a href="#posts-header">посты</a>
+
+							<li class="header-section__menu-item">
+								<a class="header-section__menu-item-link" href="#0">
+									посты
+								</a>
 							</li>
-							<li class="menu-item">
-								<a href="#articles-header">статьи</a>
+
+							<li class="header-section__menu-item">
+								<a class="header-section__menu-item-link" href="#0">
+									статьи
+								</a>
 							</li>
-							<li class="menu-item">
-								<a href="#tags-header">теги</a>
+
+							<li class="header-section__menu-item">
+								<a class="header-section__menu-item-link" href="#0">
+									теги
+								</a>
 							</li>
-							<li class="menu-item">
-								<a href="#topics-header">темы</a>
+
+							<li class="header-section__menu-item">
+								<a class="header-section__menu-item-link" href="#0">
+									темы
+								</a>
 							</li>
-							<li class="menu-item">
-								<a href="#contacts-header">контакты</a>
+
+							<li class="header-section__menu-item">
+								<a class="header-section__menu-item-link" href="#0">
+									контакты
+								</a>
 							</li>
+
 						</ul>
-					</nav>
-				</div>
+					</div>
+				</nav>
 			</div>
 
-			<div class="welcome">
-				<h1>блог о творчестве, спорте, и образе жизни</h1>
+
+			<div class="header-section__title-container">
+				<h1 class="header-section__title">
+					Блог о творчестве, спорте, и образе жизни
+				</h1>
 			</div>
 		</div>
 	</header>
+
+
+
+	<section class="trends-section">
+		<h2 class="trends-section__title section-title"> <!-- правильно ли давать 2 класса по методологии БЭМ? -->
+			Сейчас в тренде
+		</h2>
+
+		<ul class="trends-section__list list_no-style">
+			<li class="trends-section__list-item">
+				<article class="trends-section__article" id="trends-section__article-1">
+					<div class="trends-section__article-substance">
+						<ul class="trends-section__article-categories list_no-style article-categories">
+
+							<li class="trends-section__article-categories-item">
+								<a class="trends-section__article-categories-item-link article-tag-link" href="#0">
+									lifestyle
+								</a>
+								<!-- лучше стилизовать текст ссылки ИЛИ положить span в a? -->
+							</li>
+
+							<li class="trends-section__article-categories-item">
+								<a class="trends-section__article-categories-item-link article-tag-link" href="#0">
+									interior
+								</a>
+							</li>
+
+						</ul>
+
+						<a class="trends-section__article-title-wrapper-link" href="#0">
+							<h3 class="trends-section__article-title">
+								Сейчас в тренде: сад на подоконнике
+							</h3>
+						</a>
+					</div>
+				</article>
+			</li>
+
+			
+			<li class="trends-section__list-item">
+				<article class="trends-section__article" id="trends-section__article-2">
+					<div class="trends-section__article-substance">
+						<ul class="trends-section__article-categories list_no-style article-categories">
+
+							<li class="trends-section__article-categories-item">
+								<a class="trends-section__article-categories-item-link article-tag-link" href="#0">
+									food
+								</a>
+							</li>
+
+						</ul>
+
+						<a class="trends-section__article-title-wrapper-link" href="#0">
+							<h3 class="trends-section__article-title">
+								Сыры на красивых картинках из интернета: какие они на вкус?
+							</h3>
+						</a>
+					</div>
+				</article>
+			</li>
+
+
+			<li class="trends-section__list-item">
+				<article class="trends-section__article" id="trends-section__article-3">
+					<div class="trends-section__article-substance">
+						<ul class="trends-section__article-categories list_no-style article-categories">
+
+							<li class="trends-section__article-categories-item">
+								<a class="trends-section__article-categories-item-link article-tag-link" href="#0">
+									lifestyle
+								</a>
+							</li>
+
+							<li class="trends-section__article-categories-item">
+								<a class="trends-section__article-categories-item-link article-tag-link" href="#0">
+									travel
+								</a>
+							</li>
+
+						</ul>
+
+						<a class="trends-section__article-title-wrapper-link" href="#0">
+							<h3 class="trends-section__article-title">
+								Собираемся в первый поход в горы
+							</h3>
+						</a>
+					</div>
+				</article>
+			</li>
+
+
+			<li class="trends-section__list-item">
+				<article class="trends-section__article" id="trends-section__article-4">
+					<div class="trends-section__article-substance">
+						<ul class="trends-section__article-categories list_no-style article-categories">
+
+							<li class="trends-section__article-categories-item">
+								<a class="trends-section__article-categories-item-link article-tag-link" href="#0">
+									food
+								</a>
+							</li>
+
+							<li class="trends-section__article-categories-item">
+								<a class="trends-section__article-categories-item-link article-tag-link" href="#0">
+									health
+								</a>
+							</li>
+
+						</ul>
+
+						<a class="trends-section__article-title-wrapper-link" href="#0">
+							<h3 class="trends-section__article-title">
+								Сейчас в тренде: сколько витамина С в лимонах?
+							</h3>
+						</a>
+					</div>
+				</article>
+			</li>
+		</ul>
+	</section>
+
+
+
+	<div class="union"> <!-- .union mustn't have any top borders or paddings. It's first child will margin collapsing with top element -->
+		
+		<div class="main-bar">
+			<section class="posts-section">
+				<h2 class="_hidden">
+					Лучшие посты
+				</h2>
+			</section>
+		</div>
+
+
+		<div class="aside-bar">
+
+			<section class="latest-posts-section aside-bar__section">
+				<h2 class="latest-posts-section__title section-title section-title_aside">
+					Новые посты
+				</h2>
+				<!-- latest-posts -->
+			</section>
+
+			<section class="search-section aside-bar__section">
+				<h2 class="_hidden">
+					Поиск
+				</h2>
+				<!-- search -->
+			</section>
+
+			<section class="subscribe-section aside-bar__section">
+				<h2 class="subscribe-section__title section-title section-title_aside">
+					Рассылка
+				</h2>
+				<!-- subscribe -->
+			</section>
+
+			<section class="categories-section aside-bar__section">
+				<h2 class="categories-section__title section-title section-title_aside">
+					Теги
+				</h2>
+				<!-- tags -->
+			</section>
+
+			<section class="topics-section aside-bar__section">
+				<h2 class="topics-section__title section-title section-title_aside">
+					Темы
+				</h2>
+				<!-- categories -->
+			</section>
+
+		</div>
+
+	</div>
+
+
+	<section class="shop-section">
+		<h2 class="shop-section__title section-title">
+			Наши изделия
+		</h2>
+		<!-- shop -->
+	</section>
+
+
+
+	<footer class="footer-section">
+		<!-- footer -->
+	</footer>
+
+
 </body>
 </html>

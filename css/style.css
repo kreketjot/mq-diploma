@@ -1,3 +1,4 @@
+/***** FONTs section START *****/
 @font-face {
 	font-family: "OpenSans";
   src: url("fonts/OpenSans-Bold.ttf");
@@ -18,14 +19,34 @@
   font-style: normal;
 }
 /* консоль ругается на шрифты, в чём проблема? :) */
+/***** FONTs section END *****/
 
+/***** STYLEs section START *****/
+/*** GENERAL styles START ***/
 * { /* есть недостатки у такого подхода? */
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+
+	font-family: "OpenSans", "Arial", sans-serif; 
 }
 
-.header {
+._hidden {
+	position: absolute;
+
+	width: 1px;
+	height: 1px;
+
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.list_no-style {
+	list-style-type: none;
+}
+/*** GENERAL styles END ***/
+
+/*** HEADER section START ***/
+.header-section {
 	position: relative;
 
 	background-color: #10192a;
@@ -34,12 +55,7 @@
 	background-position: center center; /* нужно ли ? */
 }
 
-.header .content {
-  position: relative;
-  z-index: 2;
-}
-
-.header::before {
+.header-section::before {
 	content: "";
 
 	position: absolute;
@@ -52,23 +68,19 @@
 	opacity: 0.6;
 }
 
-.hidden {
-	position: absolute;
-
-	width: 1px;
-	height: 1px;
-
-	clip: rect(1px, 1px, 1px, 1px);
+.header-section__content {
+  position: relative;
+  z-index: 2;
 }
 
-.header .top {
+.header-section__top {
 	display: flex;
 
 	justify-content: space-between;
 	align-items: center;
 }
 
-.header .logo {
+.header-section__logo {
 	display: block;
 	
 	background-size: contain;
@@ -76,14 +88,95 @@
 	background-image: url("../svg/noemi-logo.svg");
 }
 
-.list {
-	list-style-type: none;
-}
-
-.header h1 {
-	font-family: "OpenSans", "Arial", sans-serif; 
+.header-section__title {
 	font-weight: bold;
 	color: #ffffff;
 	text-transform: uppercase;
 	text-align: center;
 }
+/*** HEADER section END ***/
+
+/*** TRENDS section START ***/
+.section-title {
+	font-weight: bold;
+	color: #0f0d0e;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.section-title::after {
+	content: "";
+
+	display: block;
+	width: 67px;
+	height: 3px;
+
+	margin: 14px auto 24px;
+
+	background-color: #e1d9bd;
+}
+
+.trends-section__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.trends-section__article {
+	background-color: #444444;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#trends-section__article-1 {
+	background-image: url("../images/trend1.jpg");
+}
+
+#trends-section__article-2 {
+	background-image: url("../images/trend2.jpg");
+}
+
+#trends-section__article-3 {
+	background-image: url("../images/trend3.jpg");
+}
+
+#trends-section__article-4 {
+	background-image: url("../images/trend4.jpg");
+}
+
+.trends-section__article-categories {
+	display: flex;
+}
+
+.article-tag-link {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.article-tag-link, .article-tag-link:visited {
+	color: #b59f5b;
+}
+
+.article-tag-link:hover {
+	text-decoration: underline;
+}
+
+.trends-section__article-title-wrapper-link {
+	text-decoration: none;
+}
+
+.trends-section__article-title {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.trends-section__article-title {
+	color: #ffffff;
+}
+
+.trends-section__article-title:hover {
+	color: #b59f5b;
+}
+/*** TRENDS section END ***/

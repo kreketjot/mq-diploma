@@ -1,4 +1,5 @@
-.header {
+/*** GENERAL styles START ***/
+.header-section {
 	background-image: url("../images/banner-bg.jpg");
 }
 
@@ -11,37 +12,55 @@
 	padding-right: 15px;
 }
 
-.header .content {
+.trends-section, .union, .shop-section, .site-footer {
+	margin-top: 50px;
+}
+
+.aside-bar__section {
+	margin-top: 61px;
+}
+
+.section-title {
+	font-size: 20px;
+}
+
+.section-title_aside {
+	font-size: 14px;
+}
+
+.section-title::after {
+	margin-bottom: 28px;
+}
+
+.section-title_aside::after {
+	margin-bottom: 24px;
+}
+/*** GENERAL styles END ***/
+
+/*** HEADER section START ***/
+.header-section__content {
 	padding-top: 28px;
 	padding-bottom: 145px;
 }
 
-.header .logo {
+.header-section__logo {
 	width: 180px;
 	height: 40px;
 }
 
-.header .welcome {
-	width: 720px; /* примерно взято. нормально? */
-
-	margin: 127px auto 0;
-}
-
-.header h1 {
-	font-size: 45px;
-	line-height: 75px;
-}
-
-.header .menu .list {
+.header-section__menu-list {
 	display: flex;
 }
 
-.header .menu .list li:not(:first-child) { /* лучше через :not или перезаписать первый элемент? ведь так каждый элемент проверяется на :first-child ... */
+.header-section__menu-item {
 	margin-left: 35px;
 }
 
-.header .menu a {
-	font-family: "OpenSans";
+.header-section__menu-item_first {
+	margin-left: 0;
+}
+
+.header-section__menu-item-link {
 	font-weight: normal;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -49,6 +68,18 @@
 	font-size: 13px;
 }
 
-.header .menu a:hover {
+.header-section__menu-item-link:hover {
 	text-decoration: underline;
 }
+
+.header-section__title-container {
+	width: 720px;
+
+	margin: 127px auto 0;
+}
+
+.header-section__title {
+	font-size: 45px;
+	line-height: 1.667;
+}
+/*** HEADER section END ***/

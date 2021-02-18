@@ -1,3 +1,4 @@
+/*** GENERAL styles START ***/
 body {
 	min-width: 240px;
 }
@@ -6,9 +7,9 @@ body {
 /* при ширине > 239px размеры зависят от viewport width */
 /* расчитывается относительно макета с шириной 360px */
 
- /* стоит ли объединить все @media (max-width: 239px) или оставить раскиданными по коду для повышения читаемости? */
+/* стоит ли объединить все @media (max-width: 239px) или оставить раскиданными по коду для повышения читаемости? */
 
-.header {
+.header-section {
 	background-image: url("../images/banner-mobile.jpg");
 }
 
@@ -17,42 +18,52 @@ body {
 	padding-right: 15px;
 }
 
-.header .content {
+section, .site-footer { /* или добавить общий класс .section всем section или объеденить все классы через запятую? */
+  margin-top: 44px;
+}
+
+.section-title {
+	font-size: 16px;
+}
+/*** GENERAL styles END ***/
+
+/*** HEADER section START ***/
+.header-section__content {
 	padding-top: 31px;
 	padding-bottom: 60.555vw; /* 218/360 = 0.60555 */
 }
 
 @media (max-width: 239px) {
-	.header .content {
+	.header-section__content {
 		padding-bottom: 145px; /* 0.60555*240 = 145 */
 	}
 }
 
-.header .top {
+.header-section__top {
 	height: 70.833vw; /* 255/360 = 0.70833 */
 
 	flex-direction: column-reverse;
 }
 
 @media (max-width: 239px) {
-	.header .top {
+	.header-section__top {
 		height: 170px; /* 0.70833*240 = 170 */
 	}
 }
 
-.header .logo {
+.header-section__logo {
 	width: 74.722vw; /* 269/360 = 0.74722 */
 	height: 16.667vw; /* 60/360 = 0.16667 */
 }
 
 @media (max-width: 239px) {
-	.header .logo {
+	.header-section__logo {
 		width: 179px; /* 0.74722*240 = 179 */
 		height: 40px; /* 0.16667*240 = 40 */
 	}
 }
 
-.header .menu {
+.header-section__menu {
 	width: 23px;
 	height: 20px;	
 
@@ -65,7 +76,7 @@ body {
 	background-image: url("../images/menu-button.png");
 }
 
-.header .menu nav {
+.header-section__menu-list-container_hidden {
 	position: absolute;
 
 	width: 1px;
@@ -74,23 +85,24 @@ body {
 	clip: rect(1px, 1px, 1px, 1px);
 }
 
-.header  .welcome {
+.header-section__title-container {
 	margin: 12vw auto 0; /* 43/360 = 0.12 */
 }
 
 @media (max-width: 239px) {
-	.header .welcome {
+	.header-section__title-container {
 		margin-top: 29px; /* 0.12*240 = 29 */
 	}
 }
 
-.header h1 {
+.header-section__title {
 	font-size: 7.222vw; /* 26/360 = 0.07222 */
 	line-height: 1.385; /* 36/26 = 1.385 */
 }
 
 @media (max-width: 239px) {
-	.header h1 {
+	.header-section__title {
 		font-size: 17px; 
 	}
 }
+/*** HEADER section END ***/
