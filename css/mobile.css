@@ -85,12 +85,12 @@ section, .site-footer { /* или добавить общий класс .sectio
 	clip: rect(1px, 1px, 1px, 1px);
 }
 
-.header-section__title-container {
+.header-section__title-wrapper {
 	margin: 12vw auto 0; /* 43/360 = 0.12 */
 }
 
 @media (max-width: 239px) {
-	.header-section__title-container {
+	.header-section__title-wrapper {
 		margin-top: 29px; /* 0.12*240 = 29 */
 	}
 }
@@ -106,3 +106,9 @@ section, .site-footer { /* или добавить общий класс .sectio
 	}
 }
 /*** HEADER section END ***/
+
+/*** TRENDS section START ***/
+.trends-section__article-substance {
+	padding: 30px 22px;
+}
+/*** TRENDS section END ***/

@@ -9,7 +9,7 @@
 | sections | mobile | tablet | desktop |
 |-|-|-|-|
 | header | + | + | + |
-| trends | - | - | - |
+| trends | - | - | + |
 | post list | - | - | - |
 | latest posts | - | - | - |
 | search | - | - | - |
@@ -18,6 +18,7 @@
 | topics | - | - | - |
 | shop | - | - | - |
 | footer | - | - | - |
+| popup | - | - | - |
 
 | details | mobile | tablet | desktop |
 |-|-|-|-|
