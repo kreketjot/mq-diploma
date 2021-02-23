@@ -17,7 +17,7 @@
 | categories | - | - | - |
 | topics | - | - | - |
 | shop | - | - | - |
-| footer | - | - | - |
+| footer | + | + | + |
 | popup | - | - | - |
 
 | details | mobile | tablet | desktop |

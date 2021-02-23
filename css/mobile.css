@@ -112,3 +112,10 @@ section, .site-footer { /* или добавить общий класс .sectio
 	padding: 30px 22px;
 }
 /*** TRENDS section END ***/
+
+/*** FOOTER section START ***/
+.copyright-section {
+	padding-top: 49px;
+	padding-bottom: 49px;
+}
+/*** FOOTER section END ***/

@@ -169,6 +169,8 @@
 	position: relative;
 	z-index: 2; 
 
+	width: 100%;
+
 	border: 4px solid #b59f5b;
 }
 
@@ -222,3 +224,40 @@
 	color: #b59f5b;
 }
 /*** TRENDS section END ***/
+
+/*** FOOTER section START ***/
+.social-section {
+	background-color: #f4f7f6;
+}
+
+.social-section__networks {
+	display: flex;
+	justify-content: center;
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.social-section__network {
+	margin-left: 28px;
+}
+
+.social-section__network_first {
+	margin-left: 0;
+}
+
+.social-section__network-icon {
+	width: 21px;
+	height: 21px;
+}
+
+.copyright-section__text {
+	display: block;
+
+	text-align: center;
+
+	font-size: 12px;
+	font-weight: bold;
+	color: #999999;
+}
+/*** FOOTER section END ***/

@@ -86,6 +86,7 @@
 
 /*** TRENDS section START ***/
 .trends-section {
+	max-width: 1660px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -95,17 +96,23 @@
 }
 
 .trends-section__articles-item {
+	flex-basis: calc(25% - 3px); /* (100% - 3*4px)/4 = 25% - 3px */
+
 	margin-left: 4px;
 }
 
-.trends-section__articles-item_first {
+.trends-section__articles-item:nth-child(4n + 1) { /* через .trends-section__articles-item_first пропадает универсальность. мы можем добавить 8 карточек, тогда придётся придавать этот класс ещё одному элементу где-то в середине (то есть отталкиваться от оформления) */
+	flex-grow: 1;
+
 	margin-left: 0px;
 }
 
+.trends-section__articles-item:nth-child(n + 5) {
+	margin-top: 4px;
+}
+
 .trends-section__article {
-	width: calc(25vw - 3px); /* (100% - 3*4px)/4 = 25% - 3px */
-	max-width: 414px;
-	height: 320px;
+	min-height: 320px;
 
 	padding-left: 20px;
 	padding-right: 20px;
@@ -119,3 +126,10 @@
 	font-size: 20px;
 }
 /*** TRENDS section END ***/
+
+/*** FOOTER section START ***/
+.copyright-section {
+	padding-top: 74px;
+	padding-bottom: 46px;
+}
+/*** FOOTER section END ***/
