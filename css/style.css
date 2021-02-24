@@ -180,11 +180,11 @@
 }
 
 .article-categories-item {
-	margin-left: 19px;
+	margin-right: 19px;
 }
 
-.article-categories-item_first {
-	margin-left: 0;
+.article-categories-item:last-child {
+	margin-right: 0;
 }
 
 .article-tag-link {
