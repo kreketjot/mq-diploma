@@ -132,6 +132,44 @@
 }
 /*** TRENDS section END ***/
 
+/*** EXPANDED POSTS section START ***/
+.main-bar {
+	width: 392px;
+}
+
+.posts-section__post {
+	margin-bottom: 23px;
+}
+
+.posts-section__post::before {
+	content: "";
+
+	display: block;
+	width: 100%;
+	height: 3px;
+	margin-bottom: 31px;
+
+	background-color: #eeeeee;
+}
+
+.posts-section__post_first::before {
+	display: none;
+}
+
+.expanded-article__content {
+	margin-top: 16px;
+}
+
+.expanded-article__info {
+	margin-top: 39px;
+	margin-bottom: 36px;
+}
+
+.expanded-article__text-paragraph_not-first {
+	margin-top: 25px;
+}
+/*** EXPANDED POSTS section END ***
+
 /*** FOOTER section START ***/
 .copyright-section {
 	padding-top: 50px;

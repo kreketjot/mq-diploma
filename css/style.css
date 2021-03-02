@@ -29,6 +29,7 @@
 	padding: 0;
 
 	font-family: "OpenSans", "Arial", sans-serif; 
+	font-weight: normal;
 }
 
 ._hidden {
@@ -202,28 +203,58 @@
 	text-decoration: underline;
 }
 
-.trends-section__article-title-wrapper-link {
+.article-title-wrapper-link {
+	margin-top: 14px;
+
 	text-decoration: none;
 }
 
-.article-title-wrapper-link {
-	margin-top: 14px;
-}
-
-.trends-section__article-title {
+.article-title {
 	font-weight: bold;
 	line-height: 1.25;
 	text-transform: uppercase;
 }
 
+.article-title:hover {
+	color: #b59f5b;
+}
+
 .trends-section__article-title {
 	color: #ffffff;
 }
-
-.trends-section__article-title:hover {
-	color: #b59f5b;
-}
 /*** TRENDS section END ***/
+
+/*** EXPANDED POSTS section START ***/ 
+.posts-section__post_first {
+	margin-top: 0;
+}
+
+.expanded-article__image {
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: auto;
+}
+
+.expanded-article__title, .expanded-article__text {
+	color: #0f0d0e;
+}
+
+.expanded-article__info {
+	font-size: 12px;
+}
+
+.expanded-article__date {
+	margin-right: 15px;
+
+	color: #888888;
+}
+
+.expanded-article__author {
+	font-weight: bold;
+	color: #000000;
+}
+/*** EXPANDED POSTS section END ***/
 
 /*** FOOTER section START ***/
 .social-section {

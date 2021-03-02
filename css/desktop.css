@@ -127,6 +127,49 @@
 }
 /*** TRENDS section END ***/
 
+/*** EXPANDED POSTS section START ***/ 
+.posts-section__post {
+	margin-top: 59px;
+}
+
+.main-bar {
+	width: 790px; 
+}
+
+.expanded-article {
+	display: flex;
+}
+
+.expanded-article__image-wrapper {
+	width: 380px;
+	height: 294px;
+	margin-right: 30px;
+}
+
+.expanded-article__content {
+	width: 380px;
+}
+
+.expanded-article__title {
+	font-size: 20px;
+}
+
+.expanded-article__info {
+	margin-top: 38px;
+}
+
+.expanded-article__text {
+	margin-top: 58px;
+
+	font-size: 15px;
+	line-height: 1.467;
+}
+
+.expanded-article__text-paragraph_not-first {
+	margin-top: 25px;
+}
+/*** EXPANDED POSTS section END ***/
+
 /*** FOOTER section START ***/
 .copyright-section {
 	padding-top: 74px;
