@@ -225,6 +225,10 @@
 /*** TRENDS section END ***/
 
 /*** EXPANDED POSTS section START ***/ 
+.posts-section__post_first {
+	margin-top: 0;
+}
+
 .expanded-article__image {
 	max-width: 100%;
 	max-height: 100%;

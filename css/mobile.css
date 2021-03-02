@@ -150,6 +150,12 @@ section, .site-footer { /* или добавить общий класс .sectio
 }
 /*** TRENDS section END ***/
 
+/*** EXPANDED POSTS section START ***/
+.expanded-article__text-paragraph_not-first {
+	margin-top: 17px;
+}
+/*** EXPANDED POSTS section END ***/
+
 /*** FOOTER section START ***/
 .copyright-section {
 	padding-top: 49px;

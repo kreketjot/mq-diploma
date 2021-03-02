@@ -128,6 +128,10 @@
 /*** TRENDS section END ***/
 
 /*** EXPANDED POSTS section START ***/ 
+.posts-section__post {
+	margin-top: 59px;
+}
+
 .expanded-article {
 	display: flex;
 
@@ -157,6 +161,10 @@
 
 	font-size: 15px;
 	line-height: 1.467;
+}
+
+.expanded-article__text-paragraph_not-first {
+	margin-top: 25px;
 }
 /*** EXPANDED POSTS section END ***/
 

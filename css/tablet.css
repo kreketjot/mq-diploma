@@ -132,6 +132,12 @@
 }
 /*** TRENDS section END ***/
 
+/*** EXPANDED POSTS section START ***/
+.expanded-article__text-paragraph_not-first {
+	margin-top: 25px;
+}
+/*** EXPANDED POSTS section END ***
+
 /*** FOOTER section START ***/
 .copyright-section {
 	padding-top: 50px;
