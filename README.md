@@ -10,7 +10,7 @@
 |-|-|-|-|
 | header | + | + | + |
 | trends | - | - | + |
-| post list | - | - | + |
+| post list | + | + | + |
 | latest posts | - | - | - |
 | search | - | - | - |
 | subscribe | - | - | - |

@@ -151,6 +151,34 @@ section, .site-footer { /* или добавить общий класс .sectio
 /*** TRENDS section END ***/
 
 /*** EXPANDED POSTS section START ***/
+.posts-section__post {
+	margin-bottom: 25px;
+}
+
+.posts-section__post::before {
+	content: "";
+
+	display: block;
+	width: 100%;
+	height: 3px;
+	margin-bottom: 35px;
+
+	background-color: #eeeeee;
+}
+
+.posts-section__post_first::before {
+	display: none;
+}
+
+.expanded-article__content {
+	margin-top: 16px;
+}
+
+.expanded-article__info {
+	margin-top: 25px;
+	margin-bottom: 23px;
+}
+
 .expanded-article__text-paragraph_not-first {
 	margin-top: 17px;
 }
