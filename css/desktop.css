@@ -132,10 +132,12 @@
 	margin-top: 59px;
 }
 
+.main-bar {
+	width: 790px; 
+}
+
 .expanded-article {
 	display: flex;
-
-	width: 790px; 
 }
 
 .expanded-article__image-wrapper {
