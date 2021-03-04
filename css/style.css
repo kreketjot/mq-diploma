@@ -30,6 +30,7 @@
 
 	font-family: "OpenSans", "Arial", sans-serif; 
 	font-weight: normal;
+	color: #000000;
 }
 
 ._hidden {
@@ -229,7 +230,7 @@
 	margin-top: 0;
 }
 
-.expanded-article__image {
+.article-image {
 	max-width: 100%;
 	max-height: 100%;
 	width: 100%;
@@ -252,9 +253,50 @@
 
 .expanded-article__author {
 	font-weight: bold;
-	color: #000000;
 }
 /*** EXPANDED POSTS section END ***/
+
+/*** MINIMIZED POSTS section END ***/ 
+.latest-posts-section__post {
+	margin-top: 22px;
+}
+
+.latest-posts-section__post_first {
+	margin-top: 0;
+}
+
+.minimized-article {
+	display: flex;
+}
+
+.minimized-article__image-wrapper {
+	flex: 0 0 70px;
+
+	height: 70px;
+	margin-right: 19px;
+}
+
+.minimized-article__content {
+	flex: 1 1;
+}
+
+.minimized-article__date {
+	vertical-align: top;
+}
+
+.minimized-article__date {
+	font-size: 12px;
+	opacity: 0.54;
+}
+
+.minimized-article__title {
+	margin-top: 9px;
+
+	font-size: 14px;
+	line-height: 1.286;
+	font-weight: bold;
+}
+/*** MINIMIZED POSTS section END ***/
 
 /*** FOOTER section START ***/
 .social-section {

@@ -11,7 +11,7 @@
 | header | + | + | + |
 | trends | - | - | + |
 | post list | + | + | + |
-| latest posts | - | - | - |
+| latest posts | + | + | + |
 | search | - | - | - |
 | subscribe | - | - | - |
 | categories | - | - | - |

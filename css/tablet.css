@@ -132,11 +132,21 @@
 }
 /*** TRENDS section END ***/
 
-/*** EXPANDED POSTS section START ***/
-.main-bar {
-	width: 392px;
+.union {
+	display: flex;
+	justify-content: space-between;
 }
 
+.main-bar {
+	flex: 0 1 392px;
+	margin-right: 35px;
+}
+
+.aside-bar {
+	flex: 0 0 271px;
+}
+
+/*** EXPANDED POSTS section START ***/
 .posts-section__post {
 	margin-bottom: 23px;
 }
