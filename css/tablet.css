@@ -17,6 +17,10 @@
 	margin-top: 61px;
 }
 
+.aside-bar__section_first {
+	margin-top: 0;
+}
+
 .section-title {
 	font-size: 18px;
 }
