@@ -184,6 +184,28 @@ section, .site-footer { /* или добавить общий класс .sectio
 }
 /*** EXPANDED POSTS section END ***/
 
+/*** MINIMIZED POSTS section END ***/ 
+@media (max-width: 293px) {
+	.minimized-article__image-wrapper {
+		margin-right: 9px;
+	}
+
+	.minimized-article__title {
+		margin-top: 0;
+	}
+/* } */
+
+/* @media (max-width: 255px) { */
+	.minimized-article__date {
+		font-size: 11px;
+	}
+
+	.minimized-article__title {
+		font-size: 13px;
+	}
+}
+/*** MINIMIZED POSTS section END ***/
+
 /*** FOOTER section START ***/
 .copyright-section {
 	padding-top: 49px;
