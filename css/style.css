@@ -298,6 +298,49 @@
 }
 /*** MINIMIZED POSTS section END ***/
 
+/*** SEARCH section START ***/
+.search-section__form {
+	display: flex;
+	height: 48px;
+}
+
+.search-section__field {
+	flex: 1 1 222px;
+	height: 100%;
+	padding: 19px;
+
+	border: 0;
+
+	background-color: #f4f7f6;
+}
+
+.search-section__field:focus {
+	outline: #b59f5b solid 2px;
+	outline-offset: -2px;
+}
+.search-section__field::placeholder {
+	font-size: 13px;
+	opacity: 0.54;
+}
+
+.search-section__button {
+	flex: 0 0 48px;
+	height: 100%;
+
+	border: 0;
+
+	background-color: #b59f5b;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url("../svg/search.svg");
+	background-size: 18px 18px;
+}
+
+.search-section__button:hover {
+	background-color: #323232;
+}
+/*** SEARCH section END ***/
+
 /*** FOOTER section START ***/
 .social-section {
 	background-color: #f4f7f6;
