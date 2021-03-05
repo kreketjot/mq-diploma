@@ -365,6 +365,42 @@
 }
 /*** SUBSCRIBE section END ***/
 
+/*** CATEGORIES section START ***/
+.categories-section__categories {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.categories-section__category {
+	height: 30px;
+	margin-right: 5px;
+	margin-bottom: 6px;
+}
+
+.categories-section__category-button {
+	display: flex;
+	height: 100%;
+	padding: 8px 11px;
+	justify-content: center;
+	align-items: center;
+
+	border: 3px solid #ededed;
+
+	text-decoration: none;
+}
+
+.categories-section__category-button:hover {
+	border-color: #b59f5b;
+}
+
+.categories-section__category-text {
+	font-size: 12px;
+	font-weight: bold;
+	color: #0f0d0e;
+	text-transform: uppercase;
+}
+/*** CATEGORIES section END ***/
+
 /*** FOOTER section START ***/
 .social-section {
 	background-color: #f4f7f6;

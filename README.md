@@ -14,7 +14,7 @@
 | latest posts | + | + | + |
 | search | + | + | + |
 | subscribe | + | + | + |
-| categories | - | - | - |
+| categories | + | + | + |
 | topics | - | - | - |
 | shop | - | - | - |
 | footer | + | + | + |
