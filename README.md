@@ -12,8 +12,8 @@
 | trends | - | - | + |
 | post list | + | + | + |
 | latest posts | + | + | + |
-| search | - | - | - |
-| subscribe | - | - | - |
+| search | + | + | + |
+| subscribe | + | + | + |
 | categories | - | - | - |
 | topics | - | - | - |
 | shop | - | - | - |
