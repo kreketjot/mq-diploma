@@ -593,8 +593,8 @@
 				</h2>
 
 				<form class="search-section__form" action="">
-					<input class="search-section__field" type="search" placeholder="Найти..." required>
-					<button class="search-section__button">
+					<input class="search-section__field aside-bar__form-field" type="search" placeholder="Найти..." required>
+					<button class="search-section__button aside-bar__form-button">
 						<span class="_hidden">
 							поиск
 						</span>
@@ -603,10 +603,20 @@
 			</section>
 
 			<section class="subscribe-section aside-bar__section">
-				<h2 class="subscribe-section__title section-title section-title_aside">
-					Рассылка
-				</h2>
-				<!-- subscribe -->
+				<label for="subscribe-section__field">
+					<h2 class="subscribe-section__title section-title section-title_aside">
+						Рассылка
+					</h2>
+				</label>
+
+				<form class="subscribe-section__form" action="">
+					<input class="subscribe-section__field aside-bar__form-field" id="subscribe-section__field" type="email" placeholder="Ваш email-адрес" required>
+					<button class="subscribe-section__button aside-bar__form-button">
+						<span class="subscribe-section__button-text">
+							подписаться
+						</span>
+					</button>
+				</form>
 			</section>
 
 			<section class="categories-section aside-bar__section">

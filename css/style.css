@@ -301,12 +301,14 @@
 /*** SEARCH section START ***/
 .search-section__form {
 	display: flex;
-	height: 48px;
 }
 
 .search-section__field {
 	flex: 1 1 222px;
-	height: 100%;
+}
+
+.aside-bar__form-field {
+	height: 48px;
 	padding: 19px;
 
 	border: 0;
@@ -314,32 +316,54 @@
 	background-color: #f4f7f6;
 }
 
-.search-section__field:focus {
+.aside-bar__form-field:focus {
 	outline: #b59f5b solid 2px;
 	outline-offset: -2px;
 }
-.search-section__field::placeholder {
+
+.aside-bar__form-fiel::placeholder {
 	font-size: 13px;
 	opacity: 0.54;
 }
 
 .search-section__button {
 	flex: 0 0 48px;
-	height: 100%;
+
+	background-repeat: no-repeat;
+	background-image: url("../svg/search.svg");
+	background-size: 18px 18px;
+}
+.aside-bar__form-button {
+	height: 48px;
 
 	border: 0;
 
 	background-color: #b59f5b;
 	background-position: center center;
-	background-repeat: no-repeat;
-	background-image: url("../svg/search.svg");
-	background-size: 18px 18px;
 }
 
-.search-section__button:hover {
+.aside-bar__form-button:hover {
 	background-color: #323232;
 }
 /*** SEARCH section END ***/
+
+/*** SUBSCRIBE section END ***/
+.subscribe-section__field { 
+	width: 100%;
+}
+
+.subscribe-section__button {
+	width: 100%;
+	margin-top: 18px;
+}
+
+.subscribe-section__button-text {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+/*** SUBSCRIBE section END ***/
 
 /*** FOOTER section START ***/
 .social-section {
