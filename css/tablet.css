@@ -155,6 +155,10 @@
 	margin-bottom: 23px;
 }
 
+.posts-section__post_first {
+	margin-top: 0;
+}
+
 .posts-section__post::before {
 	content: "";
 

@@ -155,6 +155,10 @@ section, .site-footer { /* или добавить общий класс .sectio
 	margin-bottom: 25px;
 }
 
+.posts-section__post_first {
+	margin-top: 0;
+}
+
 .posts-section__post::before {
 	content: "";
 

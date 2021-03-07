@@ -149,6 +149,10 @@
 	margin-top: 59px;
 }
 
+.posts-section__post_first {
+	margin-top: 0;
+}
+
 .expanded-article {
 	display: flex;
 }
