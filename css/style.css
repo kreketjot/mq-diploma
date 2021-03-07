@@ -401,6 +401,46 @@
 }
 /*** CATEGORIES section END ***/
 
+/*** TOPICS section START ***/
+.topics-section__topic {
+	margin-bottom: 17px;
+}
+
+.topics-section__topic::after {
+	content: "";
+
+	display: block;
+	width: 100%;
+	height: 1px;
+	margin-top: 17px;
+
+	background-color: #eeeeee;
+}
+
+.topics-section__link {
+	text-decoration: none;
+}
+
+.topics-section__link:hover > .topics-section__text {
+	color:#b59f5b;
+}
+
+.topics-section__text {
+	vertical-align: baseline;
+
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.topics-section__number {
+	vertical-align: super;
+
+	font-size: 12px;
+	font-weight: bold;
+	color:#b59f5b;
+}
+/*** TOPICS section END ***/
+
 /*** FOOTER section START ***/
 .social-section {
 	background-color: #f4f7f6;
