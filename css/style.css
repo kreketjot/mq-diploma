@@ -226,7 +226,7 @@
 /*** TRENDS section END ***/
 
 /*** EXPANDED POSTS section START ***/ 
-.posts-section__post_first {
+.posts-section__post.posts-section__post_first {
 	margin-top: 0;
 }
 
