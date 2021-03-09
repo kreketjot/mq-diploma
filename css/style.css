@@ -309,21 +309,22 @@
 	flex: 1 1 222px;
 }
 
-.aside-bar__form-field {
+.input-field {
 	height: 48px;
 	padding: 19px;
 
 	border: 0;
+	border-radius: 0;
 
 	background-color: #f4f7f6;
 }
 
-.aside-bar__form-field:focus {
+.input-field:focus {
 	outline: #b59f5b solid 2px;
 	outline-offset: -2px;
 }
 
-.aside-bar__form-fiel::placeholder {
+.input-field::placeholder {
 	font-size: 13px;
 	opacity: 0.54;
 }
