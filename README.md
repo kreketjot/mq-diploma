@@ -15,8 +15,8 @@
 | search | + | + | + |
 | subscribe | + | + | + |
 | categories | + | + | + |
-| topics | - | - | - |
-| shop | - | - | - |
+| topics | + | + | + |
+| shop | + | + | + |
 | footer | + | + | + |
 | popup | - | - | - |
 
