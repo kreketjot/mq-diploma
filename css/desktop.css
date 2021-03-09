@@ -95,24 +95,9 @@
 	margin-right: auto;
 }
 
-.trends-section__articles {
-	flex-wrap: nowrap;
-}
-
 .trends-section__articles-item {
 	flex-basis: calc(25% - 3px); /* (100% - 3*4px)/4 = 25% - 3px */
-
-	margin-left: 4px;
-}
-
-.trends-section__articles-item:nth-child(4n + 1) { /* через .trends-section__articles-item_first пропадает универсальность. мы можем добавить 8 карточек, тогда придётся придавать этот класс ещё одному элементу где-то в середине (то есть отталкиваться от оформления) */
-	flex-grow: 1;
-
-	margin-left: 0px;
-}
-
-.trends-section__articles-item:nth-child(n + 5) {
-	margin-top: 4px;
+	margin-bottom: 4px;
 }
 
 .trends-section__article {

@@ -9,7 +9,7 @@
 | sections | mobile | tablet | desktop |
 |-|-|-|-|
 | header | + | + | + |
-| trends | - | - | + |
+| trends | + | + | + |
 | post list | + | + | + |
 | latest posts | + | + | + |
 | search | + | + | + |

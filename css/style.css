@@ -121,6 +121,11 @@
 .trends-section__articles {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.trends-section__articles-item {
+	flex: 0 0;
 }
 
 .trends-section__article {
@@ -128,6 +133,7 @@
 
 	display: flex;
 	align-items: flex-end;
+	height: 100%;
 	padding-bottom: 15px;
 
 	background-color: #444444;
