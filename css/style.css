@@ -440,6 +440,7 @@
 /*** SHOP section START ***/
 .shop-section__goods-item {
 	position: relative;
+	/* z-index: 2; */ /* почему не срабатывает? пришлось добавить z-index на product__content */
 
 	padding: 0 23px;
 }
@@ -448,6 +449,7 @@
 	content: "";
 
 	position: absolute;
+	z-index: 1;
 	right: -4px;
 	bottom: -4px;
 	left: -4px;
@@ -458,6 +460,9 @@
 }
 
 .product__content {
+	position: relative;
+	z-index: 2;
+
 	margin-top: 24px;
 }
 
