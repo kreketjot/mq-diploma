@@ -593,8 +593,8 @@
 				</h2>
 
 				<form class="search-section__form" action="">
-					<input class="search-section__field input-field" type="search" placeholder="Найти..." required>
-					<button class="search-section__button aside-bar__form-button">
+					<input class="search-section__field input-field" type="search" placeholder="Найти..." name="search" required>
+					<button class="search-section__button button" type="submit">
 						<span class="_hidden">
 							поиск
 						</span>
@@ -610,9 +610,9 @@
 				</label>
 
 				<form class="subscribe-section__form" action="">
-					<input class="subscribe-section__field aside-bar__form-field input-field" id="subscribe-section__field" type="email" placeholder="Ваш email-адрес" required>
-					<button class="subscribe-section__button aside-bar__form-button">
-						<span class="subscribe-section__button-text">
+					<input class="subscribe-section__field aside-bar__form-field input-field" id="subscribe-section__field" type="email" placeholder="Ваш email-адрес" name="email" required>
+					<button class="subscribe-section__button button" type="submit">
+						<span class="subscribe-section__button-text button-text">
 							подписаться
 						</span>
 					</button>
@@ -1003,6 +1003,78 @@
 		</section>
 	</footer>
 
+	<section class="feedback-section">
+		<div class="feedback-section__window">
+			<div class="feedback-section__close-button">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 441 441">
+					<path fill="#fff" stroke="#000" d="M220.336 170.564l.353.353.354-.353L390.288 1.318l49.796 49.773-169.269 169.245-.353.354.353.354 169.269 169.245-49.796 49.796-169.245-169.269-.354-.353-.353.353-169.27 169.269-49.748-49.796 169.245-169.245.353-.354-.353-.354L1.318 51.067 51.09 1.318l169.246 169.246z"/>
+				</svg>
+				<span class="_hidden">
+					закрыть
+				</span>
+			</div>
+
+			<h2 class="feedback-section__title section-title">
+				Ваш фидбек
+			</h2>
+
+				<form action="">
+
+				<label for="feedback-section__select-user-frequency">
+					<p class="feedback-section__text">
+						Как часто вы заходите на сайт?
+					</p>
+				</label>
+
+				<select class="feedback-section__select-user-frequency input-field" name="user-frequency" id="feedback-section__select-user-frequency">
+					<option value="1">
+						Почти каждый день
+					</option>
+					<option value="2">
+						Раз в несколько дней
+					</option>
+					<option value="3">
+						Раз в несколько недель
+					</option>
+					<option value="4">
+						Несколько раз в год
+					</option>
+				</select>
+
+
+				<p class="feedback-section__text">
+					Вы подписаны на e-mail рассылку?
+				</p>
+				
+				<div class="feedback-section__radio-wrapper">
+					<input class="feedback-section__radio _hidden" type="radio" value="yes" name="subscribe-radio" id="feedback-section__radio_yes" checked>
+					<label class="feedback-section__radio-label" for="feedback-section__radio_yes">
+						Да
+					</label>
+					<input class="feedback-section__radio _hidden" type="radio" value="no" name="subscribe-radio" id="feedback-section__radio_no">
+					<label class="feedback-section__radio-label" for="feedback-section__radio_no">
+						Нет
+					</label>
+				</div>
+
+
+				<p class="feedback-section__text">
+					Расскажите, какой контент вы хотели бы видеть на нашем сайте?
+				</p>
+
+				<textarea class="feedback-section__opinion input-field" name="opinion" id="feedback-section__opinion" placeholder="Может, больше рецептов?"></textarea>
+
+				<button class="feedback-section__submit-button button" type="submit">
+					<span class="feedback-section__submit-button-text button-text">
+						отправить
+					</span>
+				</button>
+
+			</form>
+
+		</div>
+
+	</section>
 
 </body>
 </html>

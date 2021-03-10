@@ -18,9 +18,4 @@
 | topics | + | + | + |
 | shop | + | + | + |
 | footer | + | + | + |
-| popup | - | - | - |
-
-| details | mobile | tablet | desktop |
-|-|-|-|-|
-| sections' headers | + | + | + |
-| sections' margins | + | + | + |
+| modal window | + | + | + |

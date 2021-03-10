@@ -200,3 +200,17 @@
 	padding-bottom: 46px;
 }
 /*** FOOTER section END ***/
+
+/*** FEEDBACK	section START ***/
+.feedback-section__window {
+	width: 390px;
+	padding: 54px 30px;
+}
+
+.feedback-section__close-button {
+	top: -27px;
+
+	width: 20px;
+	height: 20px;
+}
+/*** FEEDBACK	section END ***/

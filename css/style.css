@@ -33,6 +33,10 @@
 	color: #000000;
 }
 
+body {
+	position: relative;
+}
+
 ._hidden {
 	position: absolute;
 
@@ -310,11 +314,12 @@
 }
 
 .input-field {
-	height: 48px;
-	padding: 19px;
-
 	-moz-appearance: none;
   -webkit-appearance: none;
+
+	height: 48px;
+	padding-left: 19px;
+	padding-right: 19px;
 
 	border: 0;
 	border-radius: 0;
@@ -338,17 +343,19 @@
 	background-repeat: no-repeat;
 	background-image: url("../svg/search.svg");
 	background-size: 18px 18px;
-}
-.aside-bar__form-button {
-	height: 48px;
-
-	border: 0;
-
-	background-color: #b59f5b;
 	background-position: center center;
 }
 
-.aside-bar__form-button:hover {
+.button {
+	height: 48px;
+
+	border: 0;
+	border-radius: 0;
+
+	background-color: #b59f5b;
+}
+
+.button:hover {
 	background-color: #323232;
 }
 /*** SEARCH section END ***/
@@ -363,7 +370,7 @@
 	margin-top: 18px;
 }
 
-.subscribe-section__button-text {
+.button-text {
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -595,3 +602,101 @@
 	color: #999999;
 }
 /*** FOOTER section END ***/
+
+/*** FEEDBACK section START ***/
+.feedback-section {
+	position: fixed;	
+	z-index: 4;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.feedback-section::before {
+	content: "";
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	opacity: 0.6;
+
+	background-color: #000000;
+}
+
+.feedback-section__window {
+	position: absolute;
+
+	background-color: #ffffff;
+}
+
+.feedback-section__close-button {
+	position: absolute;
+	right: 0;
+}
+
+.feedback-section__text {
+	margin-top: 33px;
+	margin-bottom: 11px;
+}
+
+.feedback-section__text, .feedback-section__opinion, .feedback-section__radio-label {
+	font-size: 13px;
+}
+
+.feedback-section__select-user-frequency {
+	width: 100%;
+
+	background-position: center right 14px;
+	background-repeat: no-repeat;
+	background-size: 9px;
+	background-image: url("../svg/form-arrows.svg");
+}
+
+.feedback-section__radio-label::before {
+	content: "";
+
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	margin-right: 3px;
+	vertical-align: middle;
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url("../svg/form-empty-circle.svg");
+}
+
+.feedback-section__radio:checked + .feedback-section__radio-label::before {
+	background-image: url("../svg/form-circle.svg");
+}
+
+.feedback-section__radio-label {
+	margin-right: 15px;
+	vertical-align: middle;
+}
+
+.feedback-section__opinion {
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 131px;
+	max-height: 131px;
+	padding-top: 19px;
+
+	font-size: 13px;
+}
+
+.feedback-section__submit-button {
+	width: 100%;
+
+	margin-top: 26px;
+}
+/*** FEEDBACK section END ***/

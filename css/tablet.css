@@ -191,3 +191,17 @@
 	padding-bottom: 39px;
 }
 /*** FOOTER section END ***/
+
+/*** FEEDBACK	section START ***/
+.feedback-section__window {
+	width: 390px;
+	padding: 54px 30px;
+}
+
+.feedback-section__close-button {
+	top: -37px;
+
+	width: 28px;
+	height: 28px;
+}
+/*** FEEDBACK	section END ***/

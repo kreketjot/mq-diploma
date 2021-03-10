@@ -18,7 +18,7 @@ body {
 	padding-right: 15px;
 }
 
-section, .site-footer { /* или добавить общий класс .section всем section или объеденить все классы через запятую? */
+.trends-section, .posts-section, .aside-bar__section, .shop-section, .site-footer {
   margin-top: 44px;
 }
 
@@ -239,3 +239,19 @@ section, .site-footer { /* или добавить общий класс .sectio
 	padding-bottom: 49px;
 }
 /*** FOOTER section END ***/
+
+/*** FEEDBACK	section START ***/
+.feedback-section__window {
+	min-width: 330px;
+	width: calc(100vw - 30px); /* 100% - 2*15 */
+	max-width: 390px;
+	padding: 30px 24px;
+}
+
+.feedback-section__close-button {
+	top: -33px;
+
+	width: 28px;
+	height: 28px;
+}
+/*** FEEDBACK	section END ***/
