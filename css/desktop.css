@@ -1,8 +1,4 @@
 /*** GENERAL styles START ***/
-.header-section {
-	background-image: url("../images/banner-bg.jpg");
-}
-
 .content {
 	max-width: 1200px;
 
@@ -42,6 +38,10 @@
 /*** GENERAL styles END ***/
 
 /*** HEADER section START ***/
+.header-section {
+	background-image: url("../images/banner-bg.jpg");
+}
+
 .header-section__content {
 	padding-top: 28px;
 	padding-bottom: 145px;

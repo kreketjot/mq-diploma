@@ -9,10 +9,6 @@ body {
 
 /* стоит ли объединить все @media (max-width: 239px) или оставить раскиданными по коду для повышения читаемости? */
 
-.header-section {
-	background-image: url("../images/banner-mobile.jpg");
-}
-
 .content {
 	padding-left: 15px;
 	padding-right: 15px;
@@ -28,6 +24,10 @@ body {
 /*** GENERAL styles END ***/
 
 /*** HEADER section START ***/
+.header-section {
+	background-image: url("../images/banner-mobile.jpg");
+}
+
 .header-section__content {
 	padding-top: 31px;
 	padding-bottom: 60.555vw; /* 218/360 = 0.60555 */
@@ -76,13 +76,15 @@ body {
 	background-image: url("../images/menu-button.png");
 }
 
-.header-section__menu-list-container_hidden {
+.header-section__menu-list-container_hidden, .header-section__menu-item-link_hidden {
 	position: absolute;
 
 	width: 1px;
 	height: 1px;
 	
 	clip: rect(1px, 1px, 1px, 1px);
+
+	font-size: 0; /* это для ссылкок (они вываливаются) */
 }
 
 .header-section__title-wrapper {
