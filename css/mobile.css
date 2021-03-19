@@ -212,7 +212,7 @@ body {
 }
 
 @media (max-width: 280px) {
-	.shop-section__goods-item {
+	.shop-section__goods-item::after {
 		top: 196px; /* 0.7 * 280 = 196 */
 	}
 
